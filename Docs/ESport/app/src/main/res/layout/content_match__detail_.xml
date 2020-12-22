@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@drawable/sport"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical"
+        android:gravity="left"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="@string/tomorrow_11_30_am"
+            android:textColor="#FFFFFF"
+            />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bf"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="15dp"
+                android:paddingBottom="10dp"
+                android:text="@string/paksitan"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="15dp"
+                android:paddingBottom="10dp"
+                android:text="@string/vs"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:padding="15dp"
+                android:paddingBottom="10dp"
+                android:text="@string/new_zealand"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:paddingBottom="10dp"
+                android:text="@string/paksitan"
+                android:textColor="#000000" />
+
+
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:paddingBottom="10dp"
+                android:textColor="#ffff" />
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:paddingBottom="10dp"
+                android:textColor="#ffff" />
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:paddingBottom="10dp"
+                android:textColor="#ffff" />
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:paddingBottom="10dp"
+                android:textColor="#ffff" />
+
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:padding="15dp"
+                android:paddingLeft="50dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/new_zealand"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+android:paddingLeft="10dp"
+        android:orientation="vertical"
+        android:gravity="left"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"></TextView>
+    </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffff"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="15dp"
+            tools:ignore="ExtraText">
+
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                android:orientation="vertical">
+
+
+                <TableRow
+                    android:layout_width="110dp"
+                    android:layout_height="36dp"
+                    android:background="#f1f1f1f1">
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="@string/haider_ali"
+                        android:textColor="#131311" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="110dp"
+                    android:layout_height="36dp"
+                    android:background="#f1f1f1f1">
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="@string/abdullah_shafique"
+                        android:textColor="#131311" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="110dp"
+                    android:layout_height="36dp"
+                    android:background="#f1f1f1f1">
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="Khushdil Shah"
+                        android:textColor="#131311" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="110dp"
+                    android:layout_height="36dp"
+                    android:background="#f1f1f1f1">
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="Hussain Talat"
+                        android:textColor="#131311" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="110dp"
+                    android:layout_height="36dp"
+                    android:background="#f1f1f1f1">
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="Shadab Khan (c)"
+                        android:textColor="#131311" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="110dp"
+                    android:layout_height="36dp"
+                    android:background="#f1f1f1f1">
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="Faheem Ashraf "
+                        android:textColor="#131311" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="110dp"
+                    android:layout_height="36dp"
+                    android:background="#f1f1f1f1">
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="Haris Rauf  "
+                        android:textColor="#131311" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="110dp"
+                    android:layout_height="36dp"
+                    android:background="#f1f1f1f1">
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="Iftikhar Ahmed"
+                        android:textColor="#131311" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="110dp"
+                    android:layout_height="36dp"
+                    android:background="#f1f1f1f1">
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="Imad Wasim "
+                        android:textColor="#131311" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="110dp"
+                    android:layout_height="36dp"
+                    android:background="#f1f1f1f1">
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="Mohammad Hafeez "
+                        android:textColor="#131311" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="110dp"
+                    android:layout_height="36dp"
+                    android:background="#f1f1f1f1">
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="Mohammad Rizwan(w)"
+                        android:textColor="#131311" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="110dp"
+                    android:layout_height="36dp"
+                    android:background="#f1f1f1f1">
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="Shaheen Afridi"
+                        android:textColor="#131311" />
+
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:text=""
+
+
+                ></TextView>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                android:gravity="right"
+                android:orientation="vertical">
+
+
+                <TableRow
+                    android:layout_width="110dp"
+                    android:layout_height="36dp"
+                    android:background="#f1f1f1f1">
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="Kane Williamson (c)"
+                        android:textColor="#131311" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="110dp"
+                    android:layout_height="36dp"
+                    android:background="#f1f1f1f1">
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="Todd Astle "
+                        android:textColor="#131311" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="110dp"
+                    android:layout_height="36dp"
+                    android:background="#f1f1f1f1">
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="Trent Boult "
+                        android:textColor="#131311" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="110dp"
+                    android:layout_height="36dp"
+                    android:background="#f1f1f1f1">
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="Devon Conway "
+                        android:textColor="#131311" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="110dp"
+                    android:layout_height="36dp"
+                    android:background="#f1f1f1f1">
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="Martin Guptill "
+                        android:textColor="#131311" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="110dp"
+                    android:layout_height="36dp"
+                    android:background="#f1f1f1f1">
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="Kyle Jamieson "
+                        android:textColor="#131311" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="110dp"
+                    android:layout_height="36dp"
+                    android:background="#f1f1f1f1">
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="Scott Kuggeleijn "
+                        android:textColor="#131311" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="110dp"
+                    android:layout_height="36dp"
+                    android:background="#f1f1f1f1">
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="Daryl Mitchell "
+                        android:textColor="#131311" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="110dp"
+                    android:layout_height="36dp"
+                    android:background="#f1f1f1f1">
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="James Neesham "
+                        android:textColor="#131311" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="110dp"
+                    android:layout_height="36dp"
+                    android:background="#f1f1f1f1">
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="Glenn Phillips †"
+                        android:textColor="#131311" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="110dp"
+                    android:layout_height="36dp"
+                    android:background="#f1f1f1f1">
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="Ish Sodhi "
+                        android:textColor="#131311" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="110dp"
+                    android:layout_height="36dp"
+                    android:background="#f1f1f1f1">
+
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="Tim Southee "
+                        android:textColor="#131311" />
+
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

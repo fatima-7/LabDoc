@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ESport</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_match__detail_">Match_Detail_Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="match_in_progress">Match In Progress</string>
+    <string name="tomorrow_11_30_am">Tomorrow, 11:30 am</string>
+    <string name="paksitan">Paksitan</string>
+    <string name="vs">vs</string>
+    <string name="new_zealand">New Zealand</string>
+    <string name="haider_ali">Haider Ali</string>
+    <string name="abdullah_shafique">Abdullah Shafique</string>
+</resources>
