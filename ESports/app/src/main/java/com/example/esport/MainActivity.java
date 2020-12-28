@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        phone=findViewById(R.id.profilePhone);
+        //phone=findViewById(R.id.profilePhone);
         fullName=findViewById(R.id.profileName);
         email=findViewById(R.id.profileEmail);
         fAuth=FirebaseAuth.getInstance();
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         documentReference.addSnapshotListener(this, new EventListener<DocumentSnapshot>() {
             @Override
             public void onEvent(@Nullable DocumentSnapshot documentSnapshot, @Nullable FirebaseFirestoreException e) {
-                phone.setText(documentSnapshot.getString("phone"));
+                //phone.setText(documentSnapshot.getString("phone"));
                 fullName.setText(documentSnapshot.getString("fName"));
                 email.setText(documentSnapshot.getString("email"));
             }
